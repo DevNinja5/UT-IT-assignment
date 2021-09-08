@@ -11,7 +11,7 @@ class CompanyImpl(companyValidator: CompanyValidator) {
       Option(company.name)
     }
     else{
-      println("=>Company ='"+company.name+"' is not created due to above reason!")
+      println("=>Company ='"+company.name+"' can not be not created")
       None
     }
   }
